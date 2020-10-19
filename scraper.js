@@ -1,20 +1,3 @@
-// const fetch = require('node-fetch');
-// const cheerio = require('cheerio');
-
-// const searchUrl = 'https://www.imdb.com/find?s=tt&ttype=ft&ref_=fn_ft&q=';
-
-// function searchMovies(searchTerm) {
-// 	return fetch(`${searchUrl}${searchTerm}`).then((response) => response.text());
-// }
-// searchMovies('back to the future').then((body) => {
-// 	const $ = cheerio.load(body);
-// 	$('.findResult').each(function (i, elem) {
-// 		const $elem = $(elem);
-// 		const $image = $elem.find('td a img');
-// 		console.log($image.attr('src'));
-// 	});
-// });
-
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 
